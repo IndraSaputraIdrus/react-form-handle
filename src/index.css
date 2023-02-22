@@ -1,0 +1,24 @@
+:root {
+  --primary-100: #ffffff;
+  --primary-200: #a7f3d0;
+  --primary-300: #34d399;
+  --primary-400: #10b981;
+
+  --secondary-100: #d4d4d8;
+  --secondary-200: #94a3b8;
+
+  --error: #dc2626;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: var(--primary-200);
+}

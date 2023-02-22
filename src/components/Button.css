@@ -1,0 +1,13 @@
+.form__button {
+  border: none;
+  width: 100%;
+  background: var(--primary-400);
+  color: var(--primary-100);
+  padding: 0.7rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.form__button:hover {
+  background: var(--primary-300);
+}
