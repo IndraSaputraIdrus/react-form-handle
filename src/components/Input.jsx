@@ -1,16 +1,7 @@
 import { useState } from "react";
 import "./Input.css";
 
-type InputProps = {
-  label: string;
-  type: string;
-  id: string;
-  placeholder: string;
-  errorMessage: string;
-  onChange: any;
-};
-
-export default function Input(props: InputProps) {
+export default function Input(props) {
   const [focus, setFocus] = useState(false);
   const handleFocus = () => {
     setFocus(true);
